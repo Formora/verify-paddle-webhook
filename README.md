@@ -1,4 +1,4 @@
-# Deno Paddle Webhook Verify
+# Paddle Webhook Verifier for Deno
 
 Verify Paddle webhook signatures in Deno.
 
@@ -33,5 +33,5 @@ serve(async (req) => {
 
 ## License
 
-[verify-paddle-webhook](https://github.com/Formora/verify-paddle-webhook/) is released under the
+[verify_paddle_webhook](https://github.com/Formora/verify_paddle_webhook/) is released under the
 MIT License. See the bundled [LICENSE](./LICENSE) file for details.
