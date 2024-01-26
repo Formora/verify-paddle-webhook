@@ -7,7 +7,7 @@ Signatures can be verified as follows:
 
 ```typescript
 import { serve } from 'https://deno.land/std@0.131.0/http/server.ts';
-import { verifySignature } 'https://api.deno.land/webhook/gh/verify_paddle_webhook';
+import { verifySignature } 'https://deno.land/x/verify_paddle_webhook@v0.0.1/mod.ts';
 
 serve(async (req) => {
   const secretKey = Deno.env.get(PADDLE_WEBHOOK_SECRET);
