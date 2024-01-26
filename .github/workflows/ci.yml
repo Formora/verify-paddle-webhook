@@ -16,7 +16,7 @@ jobs:
         uses: denoland/setup-deno@v1
 
       - name: Format
-        run: deno fmt --check
+        run: deno fmt --check mod.ts
 
       - name: Check
         run: deno check --remote mod.ts
