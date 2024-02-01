@@ -1,5 +1,9 @@
 # Paddle Webhook Verifier for Deno
 
+[![GitHub tag](https://img.shields.io/github/tag/formora/verify_paddle_webhook?include_prereleases=&sort=semver&color=blue)](https://github.com/formora/verify_paddle_webhook/releases/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+![CI](https://github.com/Formora/verify_paddle_webhook/actions/workflows/ci.yml/badge.svg)
+
 Verify Paddle webhook signatures in Deno.
 
 ## Usage
